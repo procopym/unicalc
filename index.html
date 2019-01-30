@@ -1,27 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <title>IMOBIL</title>
+  <style>
+    .jumbotron{
+      color: #ffffff;
+      background-color: #684cf8;
+      margin: auto;
+    }
+
+    .head-jumbotron{
+      color: white;
+      padding: 10px;
+    }
+
+    .tab-content{
+      padding: 20px;
+    }
+    .spacer-mini { height: 2px; }
+    .spacer-small { height: 40px; }
+    .spacer-medium { height: 60px; }
+    .spacer-big { height: 100px; }
+    .nav-tabs{
+      margin-bottom: 2px;
+    }
+
+  </style>
 </head>
 <body>
-<header class="header center">
-  <h1>IMOBIL</h1>
-</header>
-
-<main class="main">
-  <section class="left">
-    <h1>lefddcdct</h1>
-  </section>
-  <section class="right">
-    <h1>right</h1>
-  </section>
-</main>
-
+<div class="container">
+  <div class="bg">
+    <div class="col-lg-1 col-md-1 col-xs-1 right-block head-jumbotron">
+      <h1 style="font-size: 5rem; text-shadow: 5px 2px 3px black">IMOBIL</h1>
+    </div>
+  </div>
+  <div class="spacer-mini"></div>
+  <div>
+    <div class="jumbotron">
+      <div class="col-lg-1 col-md-1 col-xs-1 center-block">
+        <h2>About</h2>
+      </div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+    <div class="spacer-mini"></div>
+    <div class="row" style="margin: auto">
+      <div class="jumbotron col-md tab-content" style="min-height: 300px">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="jumbotron col-md tab-content" style="min-height: 300px">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="js/scripts.js"></script>
 </body>
 </html>

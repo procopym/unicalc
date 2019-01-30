@@ -1,22 +1,23 @@
-.header{
-    color: #0f003c;
-    background-color: aquamarine;
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.header.center{
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-    text-align: center;
+.right-block{
+    display: block;
+    margin-right: auto;
+}
+.left-block{
+    display: block;
+    margin-left: auto;
 }
 
-.main{
-    background-color: azure;
-    width: 90%;
-    margin: auto;
-}
+.bg{
+    background-image: url("../images/head-photo.jpg");
 
-.left{
-    align-content: flex-start;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
 }
